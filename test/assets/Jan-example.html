@@ -1,0 +1,733 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="limburg,afval,voorkomen,verwerken,sorteren,inzamelen,inzameling,sorteergids,afvalkalender" />
+<meta name="description" content="Limburg.net is de afvalintercommunale van Limburg en Diest. We staan in voor de afvalpreventie en inzameling van de 44 gemeenten in de provincie Limburg en de stad Diest." />
+<meta name="google-site-verification" content="0Zkp00BTcUZM2UvJaNxnuK-W8GfOakDbbPMTbX9kcxc" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/default/files/limburg_favicon.ico" type="image/x-icon" />
+<link rel="alternate" title="Limburg.net - Nieuws" href="http://www.limburg.net/nieuws/rss" type="application/rss+xml" />
+<meta property="og:title" content="Afvalkalender"/>
+<meta property="og:type" content="aricle"/>
+<meta property="og:url" content="http://www.limburg.net/afvalkalender"/>
+<meta property="og:image" content="http://www.limburg.net/sites/all/themes/limburg/images/logo_facebook.jpg"/>
+    <title>Afvalkalender | Limburg.net - preventie, verwerking, inzameling en sortering van afval voor Limburg en Diest</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/timeentry.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/panels/css/panels.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/tagadelic/tagadelic.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/limburg_webservice/css/afvalkalender.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/limburg/css/thickbox.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/limburg/css/limburg.css?5" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/limburg/style.css?5" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/modules/limburg_webservice/css/print_afvalkalender.css?5" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/limburg/print.css?5" />
+    <script type="text/javascript" src="/misc/jquery.js?5"></script>
+<script type="text/javascript" src="/misc/drupal.js?5"></script>
+<script type="text/javascript" src="/sites/default/files/languages/nl_d427b6edf2fb487d523caea96ced8e4f.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_ui/jquery.ui/ui/minified/ui.core.min.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_ui/jquery.ui/ui/minified/ui.dialog.min.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/panels/js/panels.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/spamspan/spamspan.compressed.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/limburg_webservice/js/afvalkalender.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/limburg/js/thickbox.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/limburg/js/jquery.json-2.2.min.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/limburg/js/limburg.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/limburg/js/jquery.maphilight.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/limburg/js/jquery.metadata.min.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/limburg/js/jquery.cookie.min.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/views/js/base.js?5"></script>
+<script type="text/javascript" src="/sites/all/modules/views/js/ajax_view.js?5"></script>
+<script type="text/javascript" src="/sites/all/themes/limburg/js/survey.js?5"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip" }, "spamspan": { "m": "spamspan", "u": "u", "d": "d", "t": "t" }, "views": { "ajax_path": "/views/ajax", "ajaxViews": [ { "view_name": "Evenementen", "view_display_id": "block_1", "view_args": "", "view_path": "afvalkalender", "view_base_path": "sensibiliseringsacties", "view_dom_id": 4, "pager_element": 0 } ] } });
+//--><!]]>
+</script>
+
+    <!--[if IE 6]>
+      <script type="text/javascript"> 
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "http://www.limburg.net/sites/all/modules/ie6update/images/",
+          message: "Uw internetbrowser (Internet Explorer 6) is gedateerd, gelieve hier de nodige updates te installeren.",
+          url: "http://www.microsoft.com/windows/internet-explorer/default.aspx"
+        }
+      </script>
+      <script type="text/javascript" src="http://www.limburg.net/sites/all/modules/ie6update/ie6update.js"></script>
+    <![endif]-->
+  	<script type="text/javascript" src="/sites/all/themes/limburg/js/scripts.js"></script>
+	<script type="text/javascript" src="/sites/all/themes/limburg/js/rounded.js"></script>
+	<!--[if lte IE 9]><link rel="stylesheet" href="/sites/all/themes/limburg/ie8.css" type="text/css" media="screen" title="IE Stylesheet" charset="utf-8" /><![endif]-->
+	<!--[if lte IE 7]><link rel="stylesheet" href="/sites/all/themes/limburg/ie7.css" type="text/css" media="screen" title="IE Stylesheet" charset="utf-8" /><![endif]-->
+
+
+
+
+  </head>
+
+<body class="not-front not-logged-in page-afvalkalender two-sidebars afvalkalender ">
+
+<!-- Layout -->
+
+    <div id="wrapper">
+	  <div id="top_container">
+		<div id="logo">
+        <a href="/" title="Limburg.net"><img src="/sites/all/themes/limburg/images/logo.jpg" alt="Limburg.net" id="logo" /></a>        </div>
+
+		<div id="top">
+			<div id="resize" class="block-text_resize">
+				<a href="javascript:text_resize('.small','11px','18px')" class="small active" id="small" title="kleiner lettertype" alt="kleiner lettertype"></a>
+				<a href="javascript:text_resize('.medium','13px','21px')" class="medium" title="standaard lettertype" alt="standaard lettertype"></a>
+				<a href="javascript:text_resize('.large','15px','23px')" class="large" title="groter lettertype" alt="groter lettertype"></a>
+			</div>
+			<div id="block-menu_block-3" class="block block-menu_block">
+
+  <div class="content">
+    <div class="menu-block-3 menu-name-menu-topmenu parent-mlid-0 menu-level-1">
+  <div class="menu_container_top"></div><ul class="menu"><li class="leaf first menu-mlid-945"><a href="/" title="Home">Home</a> <span class='bar'>|</span> </li>
+<li class="leaf menu-mlid-946"><a href="/contact" title="Contact">Contact</a> <span class='bar'>|</span> </li>
+<li class="leaf menu-mlid-4971"><a href="/veelgestelde-vragen">Veelgestelde vragen</a> <span class='bar'>|</span> </li>
+<li class="leaf last menu-mlid-2184"><a href="/sitemap" title="Sitemap">Sitemap</a></li>
+</ul><div class="menu_container_bottom"></div></div>
+  </div>
+</div>
+<div id="block-search-0" class="block block-search">
+
+  <div class="content">
+    <form action="/afvalkalender/71069/2977/15/0/01+Jan+2015/31+Jan+2015"  accept-charset="UTF-8" method="post" id="search-block-form">
+<div><div class="container-inline">
+  <div class="form-item" id="edit-search-block-form-1-wrapper">
+ <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Geef de woorden op waarnaar u wilt zoeken." class="form-text" />
+</div>
+<input type="image" name="submit" value="Zoeken" id="edit-submit-1"  class="form-submit" src="/sites/all/themes/limburg/images/search_icon.gif" />
+<input type="hidden" name="form_build_id" id="form-b9f080646f1d7e1856b849eb10c60f24" value="form-b9f080646f1d7e1856b849eb10c60f24"  />
+<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
+</div>
+
+</div></form>
+  </div>
+</div>
+<div id="block-block-4" class="block block-block">
+
+  <div class="content">
+    <p> <a href="/nieuws/rss" target="_blank"><img src="/sites/all/themes/limburg/images/rss.png" /></a></p>
+  </div>
+</div>
+		</div>
+
+	  </div>
+      <div id="header">
+    	<div class="view view-Header view-id-Header view-display-id-default view-dom-id-7">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div id="node-449" class="node header">
+  <img  class="imagefield imagefield-field_banner" width="900" height="172" alt="" src="http://www.limburg.net/sites/default/files/generated/images/header/Header_zomer_2013.jpg?1434707721" />	<!-- <script type="text/javascript">
+	
+	</script> -->
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> 		
+		<div id="topmenu">
+			<div id="menu_hoe_afval_voorkomen" class="menu_button">
+				<a href="/afval_voorkomen" id="menu-mlid-858" alt="Hoe afval voorkomen">
+					<img src="/sites/all/themes/limburg/images/topmenu/menu_hoe_afval_voorkomen.jpg" alt='Hoe afval voorkomen'/>
+				</a>
+			</div>
+			<div id="menu_zelf_verwerken" class="menu_button">
+				<a href="/afval_zelf_verwerken" id="menu-mlid-860" alt="Zelf verwerken">
+					<img src="/sites/all/themes/limburg/images/topmenu/menu_zelf_verwerken.jpg" alt="Zelf verwerken"/>
+				</a>
+			</div>
+			<div id="menu_alles_sorteren" class="menu_button">
+				<a href="/sorteerregels" id="menu-mlid-1089" alt="Alles over sorteren">
+					<img src="/sites/all/themes/limburg/images/topmenu/menu_alles_sorteren.jpg" alt="Alles over sorteren"/>
+				</a>
+			</div>
+
+				<div id="menu_alles_ophaling" class="menu_button">
+					<a href="/afvalinzameling" id="menu-mlid-1081" alt="Alles over ophalingen">
+						<img src="/sites/all/themes/limburg/images/topmenu/menu_alles_ophaling.jpg" alt="Alles over ophalingen"/>
+					</a>
+				</div>
+
+
+
+
+
+
+
+			</div>
+      </div> <!-- /header -->
+
+
+   	<div id="container" class="clear-block">
+        <div id="sidebar-left" class="sidebar">
+			<div id="left_container">
+				<div id="block-menu_block-1" class="block block-menu_block">
+
+  <div class="content">
+    <div class="menu-block-1 menu-name-primary-links parent-mlid-0 menu-level-1">
+  <div class="menu_container_top"></div><ul class="menu"><li class="collapsed first menu-mlid-858"><a href="/afval_voorkomen" title="Afval voorkomen">Afval voorkomen</a></li>
+<li class="collapsed menu-mlid-860"><a href="/afval_zelf_verwerken" title="Zelf verwerken">Zelf verwerken</a></li>
+<li class="leaf menu-mlid-1089"><a href="/sorteerregels" title="Afval sorteren">Afval sorteren</a></li>
+<li class="expanded menu-mlid-1081 active-trail"><a href="/afvalinzameling" title="Afval inzameling" class="active-trail">Afval inzameling</a><div class="menu_container_top"></div><ul class="menu"><li class="leaf first menu-mlid-1092 active active-trail"><a href="/afvalkalender" title="Afvalkalender" class="active-trail active">Afvalkalender</a></li>
+<li class="leaf menu-mlid-1063 has-children"><a href="/recyclageparken" title="Recyclageparken">Recyclageparken</a></li>
+<li class="leaf menu-mlid-3199"><a href="/kringwinkels" title="Kringwinkels">Kringwinkels</a></li>
+<li class="leaf last menu-mlid-4246"><a href="/helpdesk">Helpdesk</a></li>
+</ul><div class="menu_container_bottom"></div></li>
+<li class="collapsed menu-mlid-973"><a href="/2deleven_afval" title="Tweede leven van afval">2de leven van afval</a></li>
+<li class="collapsed menu-mlid-754"><a href="/missie-en-doel" title="Over limburg.net">Over limburg.net</a></li>
+<li class="collapsed menu-mlid-2201"><a href="/media" title="In de media">In de media</a></li>
+<li class="collapsed last menu-mlid-4585"><a href="/recyclagepark-limburgnet" title="Recyclagepark Limburg.net">Uw recyclagepark</a></li>
+</ul><div class="menu_container_bottom"></div></div>
+  </div>
+</div>
+<div id="block-block-8" class="block block-block">
+
+  <div class="content">
+    <p><a href="/aanbod-scholen" class="aanbod-scholen-link"><img src="/sites/all/themes/limburg/images/aanbod_scholen/scholen-aanbod-links.gif" width="160"></a></p>  </div>
+</div>
+<div id="block-views-Campagne-block_1" class="block block-views">
+
+  <div class="content">
+    <div class="view view-Campagne view-id-Campagne view-display-id-block_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-552" class="node campagne">
+
+	<a href="http://www.jaarverslaglimburg.net" target="_blank" alt="Jaarverslag 2014">
+		<img src="http://www.limburg.net/sites/default/files/imagecache/width_160/generated/images/home_banner/Button jaarverslag.png" alt="" title=""  class="imagecache imagecache-width_160 imagecache-default imagecache-width_160_default" width="160" height="134" />	</a>
+	
+</div>
+
+
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div id="node-907" class="node campagne">
+
+	<a href="http://www.e-portemonnee.be/" target="_blank" alt="E-portemonnee">
+		<img src="http://www.limburg.net/sites/default/files/imagecache/width_160/generated/images/home_banner/BANNER-EPORTEMONNEE.jpg" alt="" title=""  class="imagecache imagecache-width_160 imagecache-default imagecache-width_160_default" width="160" height="134" />	</a>
+	
+</div>
+
+
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div id="node-571" class="node campagne">
+
+	<a href="http://www.drinKraantjeswater.be" target="_blank" alt="DrinKraantjeswater">
+		<img src="http://www.limburg.net/sites/default/files/imagecache/width_160/generated/images/home_banner/DrinKraantjeswater_logo.jpg" alt="" title=""  class="imagecache imagecache-width_160 imagecache-default imagecache-width_160_default" width="160" height="50" />	</a>
+	
+</div>
+
+
+  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+    <div id="node-729" class="node campagne">
+
+	<a href="http://www.ambertuin.be" target="_blank" alt="amber">
+		<img src="http://www.limburg.net/sites/default/files/imagecache/width_160/generated/images/home_banner/button_amberwebsite.jpg" alt="" title=""  class="imagecache imagecache-width_160 imagecache-default imagecache-width_160_default" width="160" height="134" />	</a>
+	
+</div>
+
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+</div>
+			</div>
+		</div>
+
+      <div id="center">
+         <div id="center_container">
+			 <div class="breadcrumb"><span class="licht_grijs">Je bent hier:</span>&nbsp;<a href="/">Home</a> › <a href="/afvalinzameling">Afval inzameling</a> › <a href="/afvalkalender" class="active">Afvalkalender</a></div>	          	          	          <h1>Afvalkalender</h1>	          	          	          	          				<div id="top_content"></div>
+	          <div class="clear-block">
+
+	            <div id="kalender_info"><div id="node-384" class="node">
+
+
+
+
+  <div class="content clear-block">
+    <p>Elke ophaling is voorgesteld met een icoontje. Voor meer info over een bepaalde ophaling, beweeg met de muis over het icoontje van uw keuze.</p><p>Heeft u geen afvalkalender ontvangen, kunt u <a href="http://www.limburg.net/afvalkalender-2013">hier</a> een papieren kalender opvragen.</p>	
+		
+				
+  </div>
+
+  <div class="clear-block"></div>
+
+</div>
+	<div class="taxonomy">
+		Tags: <ul class="links inline"><li class="taxonomy_term_94 first last"><a href="/category/tags/aeea" rel="tag" title="">aeea</a></li>
+</ul>	</div>
+
+<div class="links">
+	
+</div></div><table class="kalender_legende">
+<tbody>
+ <tr class="odd"><td colspan="4" class="afvalkalender_banner">
+	<div id="ics_rol" style="position: absolute; top: 222px;width:450px;left: 189px; background: none repeat scroll 0% 0% #ffffff; padding: 30px 10px 10px; border: 1px solid #000000; text-align: left; display: none; color: #000000;">
+	<div style="position: absolute; width: 130px; right: 5px; top: 5px; border: 1px solid #000000; padding: 2px 5px;"><a href="javascript:close_ics_rol();">Sluit dit venster | X</a></div>
+	<p>U kunt de ophaaldata voor uw  adres in uw agenda toevoegen.  De werkwijze om de afvalkalender te importeren, verschilt van type toestel.</p>
+
+	<p><strong>iPhone, iPad en iPod Touch</strong></p>
+	<p>Een rechtstreeks import van de afvalkalender is mogelijk als u over een iphone, ipad of ipod Touch beschikt.
+	Gebruikers van het besturingssysteem IOS kunnen na de update van uw besturingssysteem naar IOS7 merken dat de
+	ophaaldata niet meer verschijnen in hun agenda. U kunt dit probleem oplossen door de SSL van de afvalkalender uit te schakelen.&nbsp; 
+	U kunt de SSL uitschakelen als volgt: ga naar Settings, Kalender, klik op de afvalkalender en schakel daar "Gebruik SSL" uit.</p>
+	<p><a href="webcal://www.limburg.net/ics/afvalkalender/71069/2977/15/0" target="_blank"  onClick="javascript: pageTracker._trackPageview('/afvalkalender/import');" >Klik hier om je op de afvalkalender te abonneren!</a></p>
+
+	<p><strong>Smartphones en tablets die Android als besturingssysteem hebben</strong></p>
+	<p>Bij een toestel dat op Android werkt, importeert u eerst de afvalkalender naar uw kalenderprogramma
+	op uw computer (zie verder) of google kalender/agenda (zie verder) om deze vervolgens te synchroniseren
+	met uw mobiel toestel (de wijze waarop hangt af van merk tot merk).&nbsp;
+	  Deze werkwijze is ook van toepassing bij toestellen Windows Mobile 5 tot 6.5.</p>
+
+	<p><strong>Smartphones die Windows 7 of hoger als besturingssysteem hebben</strong></p>
+	<p>Een rechtstreeks import van de afvalkalender is mogelijk als u over een Windows Phone 7 of hoger  beschikt.</p>
+	<p><a href="webcal://www.limburg.net/ics/afvalkalender/71069/2977/15/0" target="_blank"  onClick="javascript: pageTracker._trackPageview('/afvalkalender/import');" >Klik hier om je op de afvalkalender te abonneren!</a></p>
+
+	<p><strong>Vaste computer of laptop</strong></p>
+	<p>De afvalkalender kunt u importeren naar uw vaste computer of laptop als u werkt met volgende kalenderprogramma's:
+	<ul>
+	<li>Outlook 2000, 2007, 2010, 2013 (2002 en 2003 dus niet) voor PC</li>
+	<li>Apple iCal voor Mac</li>
+	<li>Entourage</li>
+	<li>Mozilla Lightning Calendar</li>
+	</ul>
+	</p>
+	<p><a href="webcal://www.limburg.net/ics/afvalkalender/71069/2977/15/0" target="_blank"  onClick="javascript: pageTracker._trackPageview('/afvalkalender/import');" >Klik hier om je op de afvalkalender te abonneren!</a></p>
+
+	<p><strong>Google agenda/calendar</strong></p>
+	<p>
+		Importeren in uw <strong>Google calendar</strong> kan op de volgende manier : <br/>
+		<ol>
+			<li>Nadat u ingelogd bent op uw google kalender, klikt u op het pijltje naast “Andere agenda’s”.</li>
+			<li>Klik op "Toevoegen via URL"</li>
+			<li>Kopieer puntje 4 en plak dit in het tekstvak langs URL</li>
+			<li><input value="webcal://www.limburg.net/ics/afvalkalender/71069/2977/15/0" onClick="this.select(); this.focus; pageTracker._trackPageview('/afvalkalender/import_googlecal');" size="60"></li>
+			<li>Klik op Agenda toevoegen</li>
+		</ol>
+	</p>
+
+	<p>Problemen? <a href="/problemen-met-downloaden-afvalkalender" target="_blank">Meld het ons via dit formulier!</a></p>
+
+	</div><a href="javascript:show_ics_rol();"   onClick="javascript: pageTracker._trackPageview('/afvalkalender/toon_info');"><img src="/sites/default/files/customer_images/afvalkalender_banner.png" alt="Calendar" title="Calendar"/></a></td> </tr>
+ <tr class="even"><td class="vorige_maand">&nbsp;</td><td><a href="#TB_inline?height=150&width=460&inlineId=mailpdf_cont" class="thickbox"><img src="/sites/all/modules/limburg_webservice/images/btn_mail.jpg" alt="Mail" title="Mail"/></a></td><td><a href="javascript:print();"   onClick="javascript: pageTracker._trackPageview('/afvalkalender/print');"><img src="/sites/all/modules/limburg_webservice/images/btn_print.jpg" alt="Print" title="Print"/></a></td><td class="volgende_maand"><a href="/afvalkalender/71069/2977/15/0/01+Feb+2015/28+Feb+2015"><img src="/sites/all/modules/limburg_webservice/images/btn_volgendemaand.jpg" alt="Volgende maand" title="Volgende maand"/></a></td> </tr>
+</tbody>
+</table>
+<table class="kalender" cellpadding="0" cellspacing="0">
+<tbody>
+ <tr class="odd"><td colspan="8" class="table_title">Genenbemdestraat 15, Ham - <span class="upper">januari </span>2015</td> </tr>
+ <tr class="even"><td class="table_days first">&nbsp;</td><td class="table_days">MA</td><td class="table_days">DI</td><td class="table_days">WO</td><td class="table_days">DO</td><td class="table_days">VR</td><td class="table_days">ZA</td><td class="table_days">ZO</td> </tr>
+ <tr class="odd"><td class="table_weeknumber" width="18px">01</td><td></td><td></td><td></td><td class="thu"><div class="dag_container"><div class="dag">1</div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/19.png" alt="Nieuwjaar" title="Nieuwjaar"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="21" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/19.png" alt="Nieuwjaar" title="Nieuwjaar"  class="imagecache imagecache-afvalkalender_icoon_large" width="55" height="55" /></div><div class="description">Nieuwjaar</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="fri"><div class="dag_container"><div class="dag">2</div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="20" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon_large" width="57" height="55" /></div><div class="description">huisvuil</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="sat"><div class="dag_container"><div class="dag">3</div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/07.png" alt="grofvuil" title="grofvuil"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="15" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/07.png" alt="grofvuil" title="grofvuil"  class="imagecache imagecache-afvalkalender_icoon_large" width="75" height="53" /></div><div class="description">grofvuil</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico odd"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/14.png" alt="papier/karton" title="papier/karton"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="16" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/14.png" alt="papier/karton" title="papier/karton"  class="imagecache imagecache-afvalkalender_icoon_large" width="71" height="55" /></div><div class="description">papier/karton</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="sun"><div class="dag_container"><div class="dag">4</div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/20.png" alt="Nieuwjaarsborrel" title="Nieuwjaarsborrel"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="21" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/20.png" alt="Nieuwjaarsborrel" title="Nieuwjaarsborrel"  class="imagecache imagecache-afvalkalender_icoon_large" width="55" height="55" /></div><div class="description">Nieuwjaarsborrel</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td> </tr>
+ <tr class="even"><td class="table_weeknumber" width="18px">02</td><td class="mon"><div class="dag_container"><div class="dag">5</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="tue"><div class="dag_container"><div class="dag">6</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="wed"><div class="dag_container"><div class="dag">7</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="thu"><div class="dag_container"><div class="dag">8</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="fri"><div class="dag_container"><div class="dag">9</div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/15.png" alt="pmd" title="pmd"  class="imagecache imagecache-afvalkalender_icoon" width="8" height="21" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/15.png" alt="pmd" title="pmd"  class="imagecache imagecache-afvalkalender_icoon_large" width="20" height="55" /></div><div class="description">pmd</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico odd"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/16.png" alt="tuin- en snoeiafval" title="tuin- en snoeiafval"  class="imagecache imagecache-afvalkalender_icoon" width="18" height="21" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/16.png" alt="tuin- en snoeiafval" title="tuin- en snoeiafval"  class="imagecache imagecache-afvalkalender_icoon_large" width="47" height="55" /></div><div class="description">tuin- en snoeiafval</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="sat"><div class="dag_container"><div class="dag">10</div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/20.png" alt="Kerstboomverbranding" title="Kerstboomverbranding"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="21" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/20.png" alt="Kerstboomverbranding" title="Kerstboomverbranding"  class="imagecache imagecache-afvalkalender_icoon_large" width="55" height="55" /></div><div class="description">Kerstboomverbranding</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="sun"><div class="dag_container"><div class="dag">11</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td> </tr>
+ <tr class="odd"><td class="table_weeknumber" width="18px">03</td><td class="mon"><div class="dag_container"><div class="dag">12</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="tue"><div class="dag_container"><div class="dag">13</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="wed"><div class="dag_container"><div class="dag">14</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="thu"><div class="dag_container"><div class="dag">15</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="fri"><div class="dag_container"><div class="dag">16</div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="20" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon_large" width="57" height="55" /></div><div class="description">huisvuil</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="sat"><div class="dag_container"><div class="dag">17</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="sun"><div class="dag_container"><div class="dag">18</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td> </tr>
+ <tr class="even"><td class="table_weeknumber" width="18px">04</td><td class="mon"><div class="dag_container"><div class="dag">19</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="tue"><div class="dag_container"><div class="dag">20</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="wed"><div class="dag_container"><div class="dag">21</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="thu"><div class="dag_container"><div class="dag">22</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="fri"><div class="dag_container"><div class="dag">23</div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/15.png" alt="pmd" title="pmd"  class="imagecache imagecache-afvalkalender_icoon" width="8" height="21" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/15.png" alt="pmd" title="pmd"  class="imagecache imagecache-afvalkalender_icoon_large" width="20" height="55" /></div><div class="description">pmd</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico odd"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/16.png" alt="tuin- en snoeiafval" title="tuin- en snoeiafval"  class="imagecache imagecache-afvalkalender_icoon" width="18" height="21" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/16.png" alt="tuin- en snoeiafval" title="tuin- en snoeiafval"  class="imagecache imagecache-afvalkalender_icoon_large" width="47" height="55" /></div><div class="description">tuin- en snoeiafval</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="sat"><div class="dag_container"><div class="dag">24</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="sun"><div class="dag_container"><div class="dag">25</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td> </tr>
+ <tr class="odd"><td class="table_weeknumber" width="18px">05</td><td class="mon"><div class="dag_container"><div class="dag">26</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="tue"><div class="dag_container"><div class="dag">27</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="wed"><div class="dag_container"><div class="dag">28</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="thu"><div class="dag_container"><div class="dag">29</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="fri"><div class="dag_container"><div class="dag">30</div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="20" /><div class="ico_rol"><div class="rol_con"><div class="icon_large"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_large//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon_large" width="57" height="55" /></div><div class="description">huisvuil</div><div style="clear:both;display:block"></div></div><div class="img_info"></div></div></div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td class="sat"><div class="dag_container"><div class="dag">31</div><div class="ico ">&nbsp;</div><div class="ico odd">&nbsp;</div><div class="ico  bottom">&nbsp;</div><div class="ico odd bottom">&nbsp;</div><div style="clear:both;display:block"></div></div></td><td></td> </tr>
+</tbody>
+</table>
+<div id='afvalkalender_print'><div class="limburg_logo"><img id="logo" alt="" src="/sites/all/themes/limburg/images/logo.jpg"></div><table class="kalender_print" cellpadding="0" cellspacing="0">
+<tbody>
+ <tr class="odd"><td colspan="4" class="table_print_title">Afvalkalender</td> </tr>
+ <tr class="even"><td colspan="4" class="table_print_title">Genenbemdestraat 15, Ham - <span class="upper">januari </span>2015</td> </tr>
+ <tr class="thu odd"><td class="table_dag_print" width="35px">do</td><td class="table_dagnummer_print" width="35px">01</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/19.png" alt="feestdag" title="feestdag"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="21" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/19.png" alt="feestdag" title="feestdag"  class="imagecache imagecache-afvalkalender_icoon_print" width="30" height="30" /></div><span class="print_text">Nieuwjaar</span></td> </tr>
+ <tr class="fri even"><td class="table_dag_print" width="35px">vr</td><td class="table_dagnummer_print" width="35px">02</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="20" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon_print" width="31" height="30" /></div></td> </tr>
+ <tr class="sat odd"><td class="table_dag_print" width="35px">za</td><td class="table_dagnummer_print" width="35px">03</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/07.png" alt="grofvuil" title="grofvuil"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="15" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/07.png" alt="grofvuil" title="grofvuil"  class="imagecache imagecache-afvalkalender_icoon_print" width="42" height="30" /></div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/14.png" alt="papier/karton" title="papier/karton"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="16" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/14.png" alt="papier/karton" title="papier/karton"  class="imagecache imagecache-afvalkalender_icoon_print" width="39" height="30" /></div></td> </tr>
+ <tr class="sun even"><td class="table_dag_print" width="35px">zo</td><td class="table_dagnummer_print" width="35px">04</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/20.png" alt="gemeentelijke activiteit" title="gemeentelijke activiteit"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="21" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/20.png" alt="gemeentelijke activiteit" title="gemeentelijke activiteit"  class="imagecache imagecache-afvalkalender_icoon_print" width="30" height="30" /></div><span class="print_text">Nieuwjaarsborrel</span></td> </tr>
+ <tr class="mon odd"><td class="table_dag_print" width="35px">ma</td><td class="table_dagnummer_print" width="35px">05</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="tue even"><td class="table_dag_print" width="35px">di</td><td class="table_dagnummer_print" width="35px">06</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="wed odd"><td class="table_dag_print" width="35px">wo</td><td class="table_dagnummer_print" width="35px">07</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="thu even"><td class="table_dag_print" width="35px">do</td><td class="table_dagnummer_print" width="35px">08</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="fri odd"><td class="table_dag_print" width="35px">vr</td><td class="table_dagnummer_print" width="35px">09</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/15.png" alt="pmd" title="pmd"  class="imagecache imagecache-afvalkalender_icoon" width="8" height="21" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/15.png" alt="pmd" title="pmd"  class="imagecache imagecache-afvalkalender_icoon_print" width="11" height="30" /></div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/16.png" alt="tuin- en snoeiafval" title="tuin- en snoeiafval"  class="imagecache imagecache-afvalkalender_icoon" width="18" height="21" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/16.png" alt="tuin- en snoeiafval" title="tuin- en snoeiafval"  class="imagecache imagecache-afvalkalender_icoon_print" width="26" height="30" /></div></td> </tr>
+ <tr class="sat even"><td class="table_dag_print" width="35px">za</td><td class="table_dagnummer_print" width="35px">10</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/20.png" alt="gemeentelijke activiteit" title="gemeentelijke activiteit"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="21" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/20.png" alt="gemeentelijke activiteit" title="gemeentelijke activiteit"  class="imagecache imagecache-afvalkalender_icoon_print" width="30" height="30" /></div><span class="print_text">Kerstboomverbranding</span></td> </tr>
+ <tr class="sun odd"><td class="table_dag_print" width="35px">zo</td><td class="table_dagnummer_print" width="35px">11</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="mon even"><td class="table_dag_print" width="35px">ma</td><td class="table_dagnummer_print" width="35px">12</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="tue odd"><td class="table_dag_print" width="35px">di</td><td class="table_dagnummer_print" width="35px">13</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="wed even"><td class="table_dag_print" width="35px">wo</td><td class="table_dagnummer_print" width="35px">14</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="thu odd"><td class="table_dag_print" width="35px">do</td><td class="table_dagnummer_print" width="35px">15</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="fri even"><td class="table_dag_print" width="35px">vr</td><td class="table_dagnummer_print" width="35px">16</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="20" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon_print" width="31" height="30" /></div></td> </tr>
+ <tr class="sat odd"><td class="table_dag_print" width="35px">za</td><td class="table_dagnummer_print" width="35px">17</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="sun even"><td class="table_dag_print" width="35px">zo</td><td class="table_dagnummer_print" width="35px">18</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="mon odd"><td class="table_dag_print" width="35px">ma</td><td class="table_dagnummer_print" width="35px">19</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="tue even"><td class="table_dag_print" width="35px">di</td><td class="table_dagnummer_print" width="35px">20</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="wed odd"><td class="table_dag_print" width="35px">wo</td><td class="table_dagnummer_print" width="35px">21</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="thu even"><td class="table_dag_print" width="35px">do</td><td class="table_dagnummer_print" width="35px">22</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="fri odd"><td class="table_dag_print" width="35px">vr</td><td class="table_dagnummer_print" width="35px">23</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/15.png" alt="pmd" title="pmd"  class="imagecache imagecache-afvalkalender_icoon" width="8" height="21" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/15.png" alt="pmd" title="pmd"  class="imagecache imagecache-afvalkalender_icoon_print" width="11" height="30" /></div><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/16.png" alt="tuin- en snoeiafval" title="tuin- en snoeiafval"  class="imagecache imagecache-afvalkalender_icoon" width="18" height="21" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/16.png" alt="tuin- en snoeiafval" title="tuin- en snoeiafval"  class="imagecache imagecache-afvalkalender_icoon_print" width="26" height="30" /></div></td> </tr>
+ <tr class="sat even"><td class="table_dag_print" width="35px">za</td><td class="table_dagnummer_print" width="35px">24</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="sun odd"><td class="table_dag_print" width="35px">zo</td><td class="table_dagnummer_print" width="35px">25</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="mon even"><td class="table_dag_print" width="35px">ma</td><td class="table_dagnummer_print" width="35px">26</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="tue odd"><td class="table_dag_print" width="35px">di</td><td class="table_dagnummer_print" width="35px">27</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="wed even"><td class="table_dag_print" width="35px">wo</td><td class="table_dagnummer_print" width="35px">28</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="thu odd"><td class="table_dag_print" width="35px">do</td><td class="table_dagnummer_print" width="35px">29</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+ <tr class="fri even"><td class="table_dag_print" width="35px">vr</td><td class="table_dagnummer_print" width="35px">30</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"><div class="ico "><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon" width="21" height="20" /></div><div class="ico print"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon_print" width="31" height="30" /></div></td> </tr>
+ <tr class="sat odd"><td class="table_dag_print" width="35px">za</td><td class="table_dagnummer_print" width="35px">31</td><td class="table_leeg">&nbsp;</td><td class="table_daginfo_print" width="550px"></td> </tr>
+</tbody>
+</table>
+<table class="kalender_activiteiten">
+<tbody>
+ <tr class="odd"><td colspan="2" class="table_print_title">Legende</td> </tr>
+ <tr class="even"><td class="legende_icoon"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/08_bordeaux.png" alt="huisvuil" title="huisvuil"  class="imagecache imagecache-afvalkalender_icoon_print" width="31" height="30" /></td><td>huisvuil</td> </tr>
+ <tr class="odd"><td class="legende_icoon"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/07.png" alt="grofvuil" title="grofvuil"  class="imagecache imagecache-afvalkalender_icoon_print" width="42" height="30" /></td><td>grofvuil</td> </tr>
+ <tr class="even"><td class="legende_icoon"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/14.png" alt="papier/karton" title="papier/karton"  class="imagecache imagecache-afvalkalender_icoon_print" width="39" height="30" /></td><td>papier/karton</td> </tr>
+ <tr class="odd"><td class="legende_icoon"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/15.png" alt="pmd" title="pmd"  class="imagecache imagecache-afvalkalender_icoon_print" width="11" height="30" /></td><td>pmd</td> </tr>
+ <tr class="even"><td class="legende_icoon"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/16.png" alt="tuin- en snoeiafval" title="tuin- en snoeiafval"  class="imagecache imagecache-afvalkalender_icoon_print" width="26" height="30" /></td><td>tuin- en snoeiafval</td> </tr>
+ <tr class="odd"><td class="legende_icoon"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/19.png" alt="feestdag" title="feestdag"  class="imagecache imagecache-afvalkalender_icoon_print" width="30" height="30" /></td><td>feestdag</td> </tr>
+ <tr class="even"><td class="legende_icoon"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/20.png" alt="gemeentelijke activiteit" title="gemeentelijke activiteit"  class="imagecache imagecache-afvalkalender_icoon_print" width="30" height="30" /></td><td>gemeentelijke activiteit</td> </tr>
+</tbody>
+</table>
+<div id="legende_extra_print"><div class="legende_item"><div class="legende_title">GROFVUIL</div><div class="legende_ico"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/07.png" alt="grofvuil" title="grofvuil"  class="imagecache imagecache-afvalkalender_icoon_print" width="42" height="30" /></div><div class="legende_desc">De grofvuilinzameling gebeurt op aanvraag. Registreer uw aanvraag via www.limburg.net. Of vraag telefonisch een ophaling aan: 0800 90 720. Vraag een ophaling grofvuil ten minste 8 dagen voor de voorziene ophaaldag aan. Breng een grofvuilsticker van 20 euro op het aangeboden grofvuil aan. De stickers zijn te koop in het gemeentehuis.</div></div></div><div class="afvalkalender_ico" style="height:20px;">&nbsp;</div></div><div id="legende_extra"><div class="legende_item"><div class="legende_title">GROFVUIL</div><div class="legende_ico"><img src="http://www.limburg.net/sites/default/files/imagecache/afvalkalender_icoon_print//sites/all/modules/limburg_webservice/iconen/07.png" alt="grofvuil" title="grofvuil"  class="imagecache imagecache-afvalkalender_icoon_print" width="42" height="30" /></div><div class="legende_desc">De grofvuilinzameling gebeurt op aanvraag. Registreer uw aanvraag via www.limburg.net. Of vraag telefonisch een ophaling aan: 0800 90 720. Vraag een ophaling grofvuil ten minste 8 dagen voor de voorziene ophaaldag aan. Breng een grofvuilsticker van 20 euro op het aangeboden grofvuil aan. De stickers zijn te koop in het gemeentehuis.</div></div></div><div id="mailpdf_cont"><form action="/afvalkalender/71069/2977/15/0/01+Jan+2015/31+Jan+2015"  accept-charset="UTF-8" method="post" id="limburg-webservice-emailpdf-form">
+<div><fieldset><legend><h2>Verzend de afvalkalender naar een emailadres</h2></legend><div class="form-item" id="edit-email-wrapper">
+ <label for="edit-email">Emailadres: <span class="form-required" title="Dit veld is verplicht.">*</span></label>
+ <input type="text" maxlength="128" name="email" id="edit-email" size="60" value="" class="form-text required" />
+</div>
+<input type="hidden" name="ps_niscode" id="edit-ps-niscode" value="71069"  />
+<input type="hidden" name="pg_straat" id="edit-pg-straat" value="2977"  />
+<input type="hidden" name="pg_huisnummer" id="edit-pg-huisnummer" value="15"  />
+<input type="hidden" name="ps_toevoeging" id="edit-ps-toevoeging" value="0"  />
+<input type="hidden" name="pd_van" id="edit-pd-van" value="01 Jan 2015"  />
+<input type="hidden" name="pd_tm" id="edit-pd-tm" value="31 Jan 2015"  />
+<input type="submit" name="op" id="edit-submit" value="Verzend"  onClick="onClick=&quot;javascript: pageTracker._trackPageview(&#039;/afvalkalender/email_pdf&#039;);&quot;" class="form-submit" />
+</fieldset>
+<input type="hidden" name="form_build_id" id="form-0bec343d7e267a5e9b0b0b2a6c999938" value="form-0bec343d7e267a5e9b0b0b2a6c999938"  />
+<input type="hidden" name="form_id" id="edit-limburg-webservice-emailpdf-form" value="limburg_webservice_emailpdf_form"  />
+
+</div></form>
+</div>	          </div>
+
+	          <div class="clear-block" id="below_content">
+	            <div id="block-block-3" class="block block-block">
+
+  <div class="content">
+    <p><a href="javascript:print()"><img src="/sites/all/themes/limburg/images/print.gif" alt="print" title="print" /></a></p>
+  </div>
+</div>
+<div id="block-block-2" class="block block-block">
+
+  <div class="content">
+    <div id="sharediv"><a class="a2a_dd" href="http://www.addtoany.com/share_save"><img src="http://static.addtoany.com/buttons/share_save_171_16.png" width="171" height="16" border="0" alt="Share/Bookmark" /></a>
+<script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script></div>
+  </div>
+</div>
+	         </div>
+      	</div>
+      </div>
+		        <div id="sidebar-right" class="sidebar">
+			<div id="right_container">
+				<div id="block-block-1" class="block block-block">
+
+  <div class="content">
+    <div id="ico_limburg"><img src="/sites/all/themes/limburg/images/icons/ico_limburg.png" alt="Limburg" title="Kies je gemeente" width="44" height="53" /></div>
+
+<div id="kies_gemeente">
+<div class="groen">Uw gemeente:</div><span class="gemeente">Niet geselecteerd</span> (<a href="#TB_inline?height=685&width=855&inlineId=limburg-select-gemeente-frm" class="thickbox">wijzig</a>)
+</div>
+
+<div style="clear:both;display:block"></div>
+
+<form action="/afvalkalender/71069/2977/15/0/01+Jan+2015/31+Jan+2015"  accept-charset="UTF-8" method="post" id="limburg-select-gemeente-frm">
+<div><fieldset class="intro"><div id="frm_intro"><div class="spotlight_lim"><img src="/sites/all/modules/limburg/images/registratie/spotlight_lim.jpg" /></div><div class="description">De afvalkalender is afhankelijk van uw woonplaats.<br/><strong>Gelieve onderstaande gegevens aan te vullen zodat we u de juiste informatie kunnen geven.</strong> </div><div style="display:block;clear:both"></div></div></fieldset>
+<fieldset class="limburg_kaart"><img name="kaartje_limburg" src="/sites/all/modules/limburg/images/kaartje_limburg.png" width="448" height="456" border="0" id="kaartje_limburg" usemap="#m_kaartje_limburg" alt="" /><map name="m_kaartje_limburg" id="m_kaartje_limburg">
+	<area shape="poly" coords="147,356,152,355,153,357,154,357,155,361,156,364,158,369,166,360,168,359,170,363,174,362,178,361,180,360,189,345,191,345,192,345,193,343,194,343,195,346,197,349,198,351,200,352,201,353,203,354,204,370,202,371,202,373,203,375,203,377,205,378,205,384,203,385,203,392,204,393,204,400,204,401,198,401,193,401,191,398,188,394,186,392,185,390,181,395,176,394,174,398,172,398,164,390,160,389,159,392,157,392,152,386,145,385,141,384,135,383,133,382,132,369,147,356" href="javascript:;" id="73009" alt="Borgloon" />
+	<area shape="poly" coords="147,385,145,385,146,391,147,392,147,394,146,396,138,412,126,416,124,441,135,443,145,434,158,440,158,434,181,420,199,420,198,417,203,411,202,410,198,402,193,400,185,390,181,394,177,394,173,398,164,389,160,389,157,392,152,385,147,385" href="javascript:;" alt="Heers" id="73022"/>
+	<area shape="poly" coords="68,407,61,421,70,428,62,447,78,455,91,455,98,449,93,443,93,436,102,441,125,442,127,415,126,414,123,409,124,408,124,404,122,403,119,402,118,402,108,402,107,403,106,403,105,404,104,404,102,404,101,404,101,403,90,402,89,404,88,405,87,406,86,407,85,407,83,407,82,407,81,407,80,406,80,406,78,405,76,405,75,405,74,406,74,406,72,406,71,406,68,407" href="javascript:;" alt="Gingelom" id="71017" />
+	<area shape="poly" coords="84,336,72,367,79,371,81,372,81,375,80,376,79,378,78,381,77,383,76,384,68,385,62,394,64,398,66,401,66,402,67,404,67,406,68,407,70,407,74,406,75,406,76,406,76,405,77,405,78,405,79,406,80,407,82,407,84,407,84,407,85,407,85,407,86,407,87,407,89,405,89,405,90,404,91,403,93,403,95,403,96,403,97,403,98,403,99,403,100,403,101,404,101,404,102,405,103,405,104,405,105,404,106,403,108,402,110,402,112,402,114,402,116,402,118,402,119,402,120,403,121,404,122,404,122,404,125,404,124,406,124,407,124,408,123,409,124,411,125,413,125,414,126,415,127,415,130,415,132,414,133,414,136,413,139,413,148,393,147,392,146,391,146,389,146,386,145,385,142,383,141,383,138,383,135,383,133,382,133,370,147,355,129,331,129,329,130,327,130,326,123,327,121,325,119,323,117,323,114,322,111,323,109,324,110,327,109,328,109,329,108,331,108,333,108,334,107,335,107,336,106,336,104,337,103,337,103,337,102,337,102,338,102,338,101,338,100,337,100,337,99,336,98,336,98,336,97,335,97,335,95,336,94,336,94,337,92,338,90,338,88,340,84,336" href="javascript:;" alt="Sint-Truiden" id="71053" />
+	<area shape="poly" coords="134,337,155,338,162,330,162,329,164,329,166,328,176,328,177,328,177,329,178,329,178,329,179,329,180,328,182,330,183,331,184,333,184,335,184,337,184,339,185,340,185,341,186,342,188,343,188,344,189,345,189,346,187,349,186,351,184,354,182,357,180,360,177,362,175,362,174,363,172,363,171,364,170,362,169,361,168,361,167,360,158,369,157,366,155,364,155,363,154,361,154,358,154,357,153,357,152,357,149,356,148,355,134,337" href="javascript:;" alt="Wellen" id="73098"/>
+	<area shape="poly" coords="179,327,186,317,224,316,225,318,226,319,227,320,227,322,226,323,225,324,224,324,224,335,225,337,226,338,226,340,220,343,219,346,223,352,224,354,220,357,219,359,219,361,210,371,203,371,203,354,202,353,200,353,199,352,197,351,197,350,196,348,195,347,195,345,194,344,193,344,192,344,191,345,191,346,190,346,189,346,184,339,183,334,182,331,182,330,179,327" href="javascript:;" alt="kortessem" id="73040"/>
+	<area shape="poly" coords="129,306,135,298,140,297,145,296,174,318,178,327,163,329,155,338,135,339,128,330,137,313,129,306" href="javascript:;" alt="Alken" id="73001" />
+	<area shape="poly" coords="101,307,94,323,86,321,85,329,83,335,87,338,88,340,95,336,98,336,100,338,107,337,111,323,119,323,124,327,130,328,137,311,130,306,122,307,119,305,118,297,112,297,108,300,106,300,103,302,105,304,106,309,103,310,101,307" href="javascript:;" alt="Niewenkerke" id="71045"/>
+	<area shape="poly" coords="4,203,1,204,1,220,6,226,6,230,1,237,7,243,8,244,7,247,1,247,9,253,9,260,12,261,31,273,49,254,48,242,69,233,70,233,67,214,70,211,73,216,83,210,67,192,48,192,44,195,48,212,37,215,31,210,20,214,15,202,14,200,12,201,10,202,7,203,4,203" href="javascript:;" alt="Diest" id="24020"/>
+	<area shape="poly" coords="111,253,121,254,124,253,128,249,127,246,127,244,137,243,140,247,144,243,149,245,165,245,166,247,171,255,195,244,201,252,196,257,199,263,201,262,207,269,199,274,192,278,189,280,188,282,193,290,185,297,185,304,189,308,187,310,186,316,178,328,173,316,144,297,134,299,130,307,125,307,122,307,118,305,117,296,118,293,119,291,119,289,118,287,116,284,113,283,112,281,111,279,111,277,113,276,114,274,115,273,115,271,116,268,115,265,116,263,116,262,116,259,115,255,111,253" href="javascript:;" alt="Hasselt" id="71022"/>
+	<area shape="poly" coords="65,262,70,261,75,258,79,256,85,254,93,252,97,252,101,251,105,251,107,251,112,253,115,255,117,260,116,264,116,266,115,270,115,273,112,277,112,278,112,281,113,283,116,285,117,287,119,290,118,295,118,298,113,298,109,300,107,301,105,301,104,303,106,304,106,305,106,310,104,310,101,309,101,307,100,303,95,296,92,293,91,293,90,292,87,292,84,292,83,292,76,292,73,287,72,287,66,269,65,262" href="javascript:;" alt="Herk-de-Stad" id="71024"/>
+	<area shape="poly" coords="70,232,48,243,49,253,30,273,40,292,44,287,54,296,73,287,68,273,67,269,66,263,66,261,64,258,63,255,65,253,70,250,73,249,75,248,77,246,70,232" href="javascript:;" alt="Halen" id="71020" />
+	<area shape="poly" coords="83,209,79,212,73,215,71,212,67,213,71,232,70,234,72,238,75,244,76,247,66,253,64,254,63,256,63,257,64,259,65,260,65,262,68,263,74,260,82,256,89,253,95,251,100,251,103,250,108,252,112,253,119,255,123,252,126,250,128,248,128,245,127,243,126,237,119,228,122,226,124,225,127,223,130,221,128,217,125,217,118,210,117,203,109,199,108,199,108,201,107,203,106,205,103,207,102,208,100,211,98,212,97,213,96,214,94,216,91,214,88,212,86,211,83,209" href="javascript:;" alt="Lummen" id="71037"/>
+	<area shape="poly" coords="106,146,107,150,110,152,111,153,114,153,116,153,118,154,122,154,124,154,128,152,130,152,132,151,136,151,139,151,142,150,144,149,147,149,152,148,154,147,155,147,160,152,164,157,168,157,171,157,171,173,159,185,151,186,140,193,138,191,135,191,132,191,131,191,130,192,127,193,126,195,129,197,131,199,117,205,116,202,108,200,108,203,103,208,100,209,98,211,96,213,95,216,84,211,66,192,68,192,70,191,72,188,74,187,76,186,80,185,82,184,86,183,87,182,89,181,90,178,91,176,92,174,93,172,95,169,99,168,100,168,102,166,103,164,104,162,106,158,105,154,106,146" href="javascript:;" alt="Beringen" id="71004"/>
+	<area shape="poly" coords="52,165,13,174,13,187,8,188,1,203,4,203,9,203,14,201,21,214,31,211,37,216,49,212,44,196,48,192,50,192,54,192,58,191,62,191,65,191,67,192,69,192,71,190,73,188,76,186,79,185,84,183,88,182,90,180,90,177,93,174,96,169,84,170,80,168,76,169,74,170,72,170,69,171,66,171,64,171,63,171,60,172,59,172,58,171,54,168,52,165" href="javascript:;" alt="Tessenderlo" id="71057"/>
+	<area shape="poly" coords="120,126,115,123,105,122,105,133,95,140,80,139,71,142,53,166,56,170,59,172,63,172,65,171,67,171,70,171,74,170,76,169,78,169,80,169,83,170,87,171,90,170,91,170,95,169,97,169,99,170,106,158,106,149,106,146,109,141,111,136,113,132,118,129,120,126" href="javascript:;" alt="Ham" id="71069" />
+	<area shape="poly" coords="171,173,159,185,151,185,141,192,138,191,135,191,134,191,129,192,126,194,130,199,117,204,117,208,127,218,129,219,129,222,122,226,120,228,121,230,122,233,126,237,126,240,127,244,130,244,132,244,135,245,137,245,139,247,144,244,146,243,148,245,162,245,160,243,159,243,158,241,157,240,155,239,154,237,154,235,154,232,154,230,164,225,166,223,165,221,164,220,164,219,166,219,168,218,173,217,174,217,177,216,178,215,179,208,169,193,171,173" href="javascript:;" alt="Heusden-zolder" id="71070"/>
+	<area shape="poly" coords="132,117,121,127,120,126,112,134,106,146,106,151,109,153,110,154,112,153,116,153,119,155,156,147,132,117" href="javascript:;" alt="Leopolsburg" id="71034"/>
+	<area shape="poly" coords="180,216,164,219,167,223,153,230,154,238,158,241,159,244,164,245,172,254,196,244,202,252,208,247,211,247,230,226,180,216" href="javascript:;" alt="Zonhoven" id="71066"/>
+	<area shape="poly" coords="207,268,189,280,188,283,192,288,192,290,185,298,185,303,185,304,188,306,189,308,187,310,186,312,186,315,186,317,224,317,226,295,241,287,222,269,219,269,216,265,212,265,207,268" href="javascript:;" alt="Diepenbeek" id="71011"/>
+
+	<area shape="poly" coords="216,365,210,371,204,371,203,377,204,377,204,378,205,378,205,379,205,379,205,380,204,381,203,383,203,384,203,387,204,388,204,390,204,391,205,398,205,399,204,400,202,400,201,400,200,400,199,401,199,402,203,410,197,419,212,436,227,435,228,434,229,434,229,433,230,430,230,430,231,428,231,427,232,426,232,426,233,425,233,425,234,425,234,426,236,427,237,427,238,428,238,429,239,431,241,433,241,434,242,433,243,433,260,419,262,417,262,414,262,412,262,410,264,408,265,408,267,409,268,409,268,409,274,403,274,401,267,396,266,395,266,394,270,388,270,388,260,375,259,372,259,369,258,367,257,365,256,363,256,361,254,361,254,361,252,362,251,363,250,365,249,366,244,366,243,367,242,367,241,367,240,366,236,364,235,364,234,363,234,363,233,364,233,365,233,366,232,366,231,367,230,367,229,367,229,367,228,366,226,365,225,364,224,364,224,363,223,363,221,363,221,364,220,365,220,365,218,365,217,365,216,365" href="javascript:;" alt="Tongeren" id="73083"/>
+	<area shape="poly" coords="215,365,220,366,221,364,223,363,225,364,226,365,228,366,230,367,232,367,233,367,233,365,234,364,234,364,236,365,240,366,241,367,248,366,250,364,255,361,256,361,254,354,251,345,249,340,247,334,245,328,241,324,241,317,236,313,231,316,226,314,225,318,226,320,225,322,224,323,222,325,225,340,224,341,223,341,219,343,219,343,218,345,219,346,220,347,220,348,221,349,222,350,223,352,223,353,215,365" href="javascript:;" alt="Hoeselt" id="73032" />
+	<area shape="poly" coords="322,348,325,361,333,363,341,368,341,375,335,374,330,372,327,372,321,376,321,381,320,384,295,395,283,396,283,403,275,404,274,402,267,395,270,388,260,374,257,362,260,359,270,364,275,363,282,358,281,352,282,348,283,347,284,346,288,346,295,342,298,344,301,347,305,347,309,348,310,348,312,350,313,351,316,349,319,349,322,348" href="javascript:;" alt="Riemst" id="73066"/>
+	<area shape="poly" coords="339,409,348,408,355,404,363,407,380,387,399,406,423,403,436,398,438,411,447,424,432,442,423,438,402,439,394,423,380,411,372,417,367,410,360,411,358,415,339,409" href="javascript:;" alt="Voeren" id="73109"/>
+	<area shape="poly" coords="239,288,226,295,224,313,227,314,229,316,231,317,236,313,238,315,240,317,240,323,245,328,251,343,257,362,260,359,264,361,268,363,271,364,274,363,276,362,279,361,282,359,281,356,281,353,283,348,284,347,287,347,289,347,291,346,293,345,295,343,296,343,299,345,301,347,303,347,304,347,306,346,306,343,307,340,308,338,303,334,300,334,295,327,293,312,289,309,285,306,286,304,288,302,290,301,287,299,282,297,280,295,270,296,263,298,258,290,239,288" href="javascript:;" alt="Bilzen" id="73006"/>
+	<area shape="poly" coords="289,301,284,305,293,312,293,321,294,327,307,338,305,348,310,349,313,351,323,349,319,333,319,321,326,316,335,315,339,303,345,292,356,292,358,285,350,285,343,290,343,286,350,279,349,274,346,274,343,271,342,271,337,274,332,274,312,268,300,274,301,289,302,299,301,302,297,302,295,302,293,302,289,301" href="javascript:;" alt="Lanaken" id="73042" />
+	<area shape="poly" coords="299,222,307,226,313,226,316,227,320,227,322,228,325,227,347,221,354,225,364,217,367,217,369,219,371,220,373,222,373,223,373,226,372,229,370,233,366,236,363,238,360,241,357,245,353,254,359,259,365,255,371,261,365,264,364,267,363,272,361,275,360,278,359,282,359,284,353,285,351,285,342,290,344,286,346,284,348,281,350,280,349,274,346,274,343,271,337,275,311,268,300,274,297,260,295,250,295,241,295,233,295,227,299,222" href="javascript:;" alt="Maasmechelen" id="73107"/>
+	<area shape="poly" coords="295,243,302,302,293,303,281,296,263,297,258,290,261,289,266,284,269,284,269,259,270,257,272,254,275,254,277,256,280,252,284,251,288,247,292,244,295,243" href="javascript:;" alt="Zutendaal" id="71067"/>
+	<area shape="poly" coords="229,227,211,246,207,247,201,252,196,259,200,263,202,263,207,269,214,265,215,265,220,269,222,270,240,287,246,288,252,288,256,290,260,291,269,283,270,258,273,254,276,256,294,243,279,234,262,211,257,212,244,211,236,220,236,222,229,227" href="javascript:;" alt="Genk" id="71016"/>
+	<area shape="poly" coords="261,211,278,234,295,244,294,226,298,222,307,226,307,213,316,212,300,199,292,208,292,211,290,212,283,208,282,208,279,208,278,210,273,209,267,210,261,211" href="javascript:;" alt="As" id="71002" />
+	<area shape="poly" coords="389,172,392,175,388,181,376,177,370,199,379,206,376,215,370,219,365,217,355,225,348,221,323,228,307,226,308,213,316,212,315,209,325,198,330,173,340,179,343,171,347,168,350,168,355,166,358,165,362,162,366,162,369,164,372,165,376,166,379,169,380,170,379,174,382,176,383,176,387,173,389,172" href="javascript:;" alt="Dilsen Stokkem" id="72041"/>
+	<area shape="poly" coords="393,133,391,136,396,142,402,141,404,151,400,155,393,152,391,152,388,155,387,158,390,161,390,164,388,167,388,170,388,172,385,175,382,177,380,175,379,173,380,171,380,169,376,166,372,165,368,164,365,163,362,163,358,165,353,167,350,167,346,169,344,170,340,179,331,173,325,198,314,210,299,198,309,182,307,178,309,178,306,176,307,174,308,173,310,172,314,170,321,164,324,159,323,158,323,156,322,148,324,146,326,145,326,139,328,136,330,136,329,131,328,129,330,128,349,127,350,130,352,129,354,128,359,126,364,128,371,130,377,133,393,133" href="javascript:;" alt="Maaseik" id="72021"/>
+	<area shape="poly" coords="321,86,354,87,364,80,370,87,378,90,373,99,378,101,377,110,388,101,394,105,400,99,414,114,408,125,402,125,393,133,379,133,361,127,359,126,358,127,355,128,352,129,349,128,345,124,344,122,343,121,343,118,346,117,345,115,344,112,339,108,340,107,333,100,321,86" href="javascript:;" alt="Kinrooi" id="72018"/>
+	<area shape="poly" coords="196,150,204,158,220,178,231,192,244,200,253,200,253,204,258,204,258,212,245,212,231,226,179,216,178,209,169,193,173,157,178,157,184,159,194,160,195,158,196,150" href="javascript:;" alt="Houthalen-Helchteren" id="72039"/>
+	<area shape="poly" coords="258,212,258,203,258,195,260,194,260,191,268,184,281,184,292,177,294,177,299,182,309,182,299,197,300,199,290,211,282,208,258,212" href="javascript:;" alt="Opglabeek" id="71047"/>
+	<area shape="poly" coords="261,117,268,127,279,144,309,140,311,148,317,145,323,147,323,157,324,158,325,160,311,172,309,174,307,175,309,177,308,181,308,182,300,182,293,177,280,184,268,184,260,190,258,204,253,204,252,201,242,199,236,196,233,194,230,190,228,188,225,185,238,180,238,159,236,155,235,154,234,150,235,147,237,147,240,143,243,143,246,139,247,139,251,136,252,133,252,131,252,129,250,128,252,125,255,123,257,121,261,117" href="javascript:;" alt="Meeuwen-Gruitrode" id="72040"/>
+	<area shape="poly" coords="320,87,323,87,325,90,345,113,346,117,345,118,344,122,349,128,330,128,329,130,330,131,331,136,326,139,326,145,323,148,316,145,314,147,311,148,309,140,307,140,304,140,279,145,268,127,278,115,279,116,283,113,281,109,281,107,284,103,289,100,294,97,297,94,302,91,320,87" href="javascript:;" alt="Bree" id="72004"/>
+	<area shape="poly" coords="273,57,316,74,316,82,321,87,315,88,312,89,308,89,304,90,300,92,282,106,281,108,283,112,268,126,261,117,262,115,266,115,267,111,266,110,266,107,265,106,264,104,264,103,264,102,262,100,262,99,262,98,262,95,257,95,257,94,253,95,252,94,247,93,247,93,241,92,235,85,237,81,238,77,239,77,239,75,242,71,244,72,244,65,257,65,260,67,262,65,262,64,265,63,267,62,269,61,272,60,273,57" href="javascript:;" alt="Bocholt" id="72003"/>
+	<area shape="poly" coords="235,84,240,91,262,95,266,109,268,112,266,115,263,115,262,116,260,118,252,126,251,127,252,129,253,130,252,132,251,135,247,139,243,142,235,148,234,149,235,151,235,153,238,159,238,180,237,181,235,181,234,182,232,182,230,184,228,184,226,185,225,185,200,153,199,152,197,152,196,151,195,150,197,149,197,148,197,147,196,145,195,144,194,143,194,142,194,140,195,139,195,136,195,135,196,134,195,129,197,129,197,125,215,105,216,89,219,88,224,84,235,84" href="javascript:;" alt="Peer" id="72030"/>
+	<area shape="poly" coords="216,18,217,14,228,13,236,2,250,5,272,26,273,57,271,60,268,61,267,61,265,63,264,63,263,64,262,66,261,67,257,65,257,58,244,42,230,46,230,36,216,18" href="javascript:;" alt="Hamont-Achel" id="72037"/>
+	<area shape="poly" coords="204,29,213,18,216,18,230,35,230,46,243,42,245,41,245,43,257,58,257,66,244,66,244,70,242,71,242,72,241,72,240,73,239,74,239,75,239,76,238,77,238,79,238,80,237,81,236,83,236,84,224,85,219,88,216,89,217,72,216,71,216,67,215,67,215,63,214,63,214,56,200,50,199,45,195,42,204,29" href="javascript:;" alt="Neerpelt" id="72025" />
+	<area shape="poly" coords="195,42,200,45,200,49,215,56,214,64,215,64,215,68,216,68,216,71,217,72,216,98,210,99,209,97,208,97,203,103,199,98,196,104,188,94,186,94,185,92,183,93,182,92,180,91,179,91,177,92,173,92,169,94,166,95,164,93,163,92,162,92,161,91,159,91,195,42" href="javascript:;" alt="Overpelt" id="72029"/>
+	<area shape="poly" coords="160,90,166,94,177,91,179,90,181,91,182,92,185,93,188,94,197,104,199,98,203,103,208,97,216,98,216,104,197,124,196,131,195,136,194,141,193,142,197,147,195,160,188,160,184,160,181,158,178,158,176,157,174,157,165,157,145,136,133,118,133,109,146,109,160,90" href="javascript:;" alt="Hechtel-Eksel" id="72038"/>
+	<area shape="poly" coords="133,109,133,88,113,69,111,41,122,30,125,30,132,26,146,31,166,29,171,26,170,19,205,29,146,109,133,109" href="javascript:;" alt="Lommel" id="72020"/>
+	</map>
+	</fieldset>
+<fieldset class="form"><div class="form-item" id="edit-select-gemeente-wrapper">
+ <label for="edit-select-gemeente">Uw gemeente: </label>
+ <select name="select_gemeente" onchange="javascript:limburg_change_form(&#039;#edit-select-gemeente&#039;,&#039;#edit-select-straat&#039;,&quot;gemeente&quot;)" tabindex="1" class="form-select" id="edit-select-gemeente" ><option value="0" selected="selected">Selecteer uw gemeente</option><option value="73001">Alken</option><option value="71002">As</option><option value="71004">Beringen</option><option value="73006">Bilzen</option><option value="72003">Bocholt</option><option value="73009">Borgloon</option><option value="72004">Bree</option><option value="71011">Diepenbeek</option><option value="24020">Diest</option><option value="72041">Dilsen-Stokkem</option><option value="71016">Genk</option><option value="71017">Gingelom</option><option value="71020">Halen</option><option value="71069">Ham</option><option value="72037">Hamont-Achel</option><option value="71022">Hasselt</option><option value="72038">Hechtel-Eksel</option><option value="73022">Heers</option><option value="71024">Herk-de-Stad</option><option value="71070">Heusden-Zolder</option><option value="73032">Hoeselt</option><option value="72039">Houthalen-Helchteren</option><option value="72018">Kinrooi</option><option value="73040">Kortessem</option><option value="73042">Lanaken</option><option value="71034">Leopoldsburg</option><option value="72020">Lommel</option><option value="71037">Lummen</option><option value="72021">Maaseik</option><option value="73107">Maasmechelen</option><option value="72040">Meeuwen-Gruitrode</option><option value="72025">Neerpelt</option><option value="71045">Nieuwerkerken</option><option value="71047">Opglabbeek</option><option value="72029">Overpelt</option><option value="72030">Peer</option><option value="73066">Riemst</option><option value="71053">Sint-Truiden</option><option value="71057">Tessenderlo</option><option value="73083">Tongeren</option><option value="73109">Voeren</option><option value="73098">Wellen</option><option value="71066">Zonhoven</option><option value="71067">Zutendaal</option></select>
+</div>
+<div class="form-item" id="edit-select-straat-wrapper">
+ <label for="edit-select-straat">Uw straat: </label>
+ <select name="select_straat" onchange="javascript:limburg_change_form(&#039;#edit-select-gemeente&#039;,&#039;#edit-select-straat&#039;,&quot;straat&quot;)" tabindex="2" class="form-select" id="edit-select-straat" ><option value="0">Selecteer eerst uw gemeente</option></select>
+ <div class="description">?<div class="popup" id="popup_straat">Selecteer hier uw straat. Als uw straat niet voorkomt in deze lijst, gelieve dit te melden via <a href="/adres-niet-gevonden">dit formulier</a>. Om verder te kunnen werken raden we u aan voorlopig een straat in uw buurt te selecteren</div></div>
+</div>
+<div class="form-item" id="edit-select-huisnummer-wrapper">
+ <label for="edit-select-huisnummer">Nummer: </label>
+ <select name="select_huisnummer" tabindex="3" class="form-select" id="edit-select-huisnummer" ><option value="0">Selecteer eerst uw straat</option></select>
+ <div class="description">?<div class="popup" id="popup_huis">Selecteer hier uw huisnummer. Als uw huisnummer niet voorkomt in deze lijst, gelieve dit te melden via <a href="/adres-niet-gevonden">dit formulier</a>. Om verder te kunnen werken raden we u aan voorlopig een huisnummer in uw buurt te selecteren</div></div>
+</div>
+<div class="form-item" id="edit-check-remember-wrapper">
+ <label class="option" for="edit-check-remember"><input type="checkbox" name="check_remember" id="edit-check-remember" value="1"  checked="checked"  tabindex="4" class="form-checkbox" /> Onthoud mijn gegevens voor een volgend bezoek</label>
+</div>
+<div class="submit"><a tabindex="5" href="javascript:limburg_change_gemeente('#edit-select-gemeente','#edit-select-straat','#edit-select-huisnummer')">Wijzig mijn gegevens</a></div><div><br/><a href="/limburg/selecteergemeente" alt="Slechtziende gelieve hier te klikken">Slechtziende gelieve hier te klikken</a></div></fieldset>
+<fieldset class="footer"><div id="frm_footer"><a href="javascript:close_registration()">Terug naar startpagina</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/privacyverklaring">Privacyverklaring</a></div></fieldset>
+<input type="hidden" name="form_build_id" id="form-806b33231d3f3940cd1da818876732ad" value="form-806b33231d3f3940cd1da818876732ad"  />
+<input type="hidden" name="form_id" id="edit-limburg-select-gemeente-frm" value="limburg_select_gemeente_frm"  />
+
+</div></form>
+
+
+<form action="/afvalkalender/71069/2977/15/0/01+Jan+2015/31+Jan+2015"  accept-charset="UTF-8" method="post" id="limburg-select-gemeente-grofvuil-frm">
+<div><fieldset class="intro_grofvuil"><div id="frm_intro_grofvuil"><div class="spotlight_lim_grofvuil"><img src="/sites/all/modules/limburg/images/registratie/spotlight_lim.jpg" /></div><div class="description"><span id="grof_titel">De grofvuilophaling is afhankelijk van uw woonplaats.</span><br/><strong>Gelieve onderstaande gegevens aan te vullen zodat we u de juiste informatie kunnen geven.</strong><div class="rood">Als uw gemeente niet voorkomt in onderstaande lijst, dan kan uw aanvraag niet elektronisch gebeuren via deze website. Raadpleeg uw <a href="/afvalkalender">afvalkalender</a> voor meer informatie. <br/><br/>Indien uw gemeente wel voorkomt, maar niet uw straat of huisnummer, contacteer ons dan via dit <a href="/aanvraag-ophaling-grofvuil-nieuw-adres">formulier</a>.</div> </div><div style="display:block;clear:both"></div></div></fieldset>
+<fieldset class="form_grofvuil"><div class="form-item" id="edit-select-gemeente-grofvuil-wrapper">
+ <label for="edit-select-gemeente-grofvuil">Uw gemeente: </label>
+ <select name="select_gemeente_grofvuil" onchange="javascript:limburg_grofvuil_change_form(&#039;#edit-select-gemeente-grofvuil&#039;,&#039;#edit-select-straat-grofvuil&#039;,&#039;#edit-select-huisnummer-grofvuil&#039;,&quot;gemeente&quot;)" class="form-select" id="edit-select-gemeente-grofvuil" ><option value="0" selected="selected">Selecteer uw gemeente</option><option value="73001">Alken</option><option value="71002">As</option><option value="71004">Beringen</option><option value="73006">Bilzen</option><option value="72003">Bocholt</option><option value="73009">Borgloon</option><option value="72004">Bree</option><option value="71011">Diepenbeek</option><option value="24020">Diest</option><option value="72041">Dilsen-Stokkem</option><option value="71020">Halen</option><option value="71069">Ham</option><option value="72037">Hamont-Achel</option><option value="71022">Hasselt</option><option value="72038">Hechtel-Eksel</option><option value="73022">Heers</option><option value="71024">Herk-de-Stad</option><option value="73028">Herstappe</option><option value="71070">Heusden-Zolder</option><option value="73032">Hoeselt</option><option value="72039">Houthalen-Helchteren</option><option value="72018">Kinrooi</option><option value="73040">Kortessem</option><option value="73042">Lanaken</option><option value="71034">Leopoldsburg</option><option value="72020">Lommel</option><option value="71037">Lummen</option><option value="72021">Maaseik</option><option value="73107">Maasmechelen</option><option value="72040">Meeuwen-Gruitrode</option><option value="72025">Neerpelt</option><option value="71045">Nieuwerkerken</option><option value="71047">Opglabbeek</option><option value="72029">Overpelt</option><option value="72030">Peer</option><option value="73066">Riemst</option><option value="71053">Sint-Truiden</option><option value="71057">Tessenderlo</option><option value="73083">Tongeren</option><option value="73098">Wellen</option><option value="71066">Zonhoven</option><option value="71067">Zutendaal</option></select>
+</div>
+<div class="form-item" id="edit-select-straat-grofvuil-wrapper">
+ <label for="edit-select-straat-grofvuil">Uw straat: </label>
+ <select name="select_straat_grofvuil" onchange="javascript:limburg_grofvuil_change_form(&#039;#edit-select-gemeente-grofvuil&#039;,&#039;#edit-select-straat-grofvuil&#039;,&#039;#edit-select-huisnummer-grofvuil&#039;,&quot;straat&quot;)" class="form-select" id="edit-select-straat-grofvuil" ><option value="0" selected="selected">Selecteer eerst uw gemeente</option></select>
+</div>
+<div class="form-item" id="edit-select-huisnummer-grofvuil-wrapper">
+ <label for="edit-select-huisnummer-grofvuil">Nummer: </label>
+ <select name="select_huisnummer_grofvuil" class="form-select" id="edit-select-huisnummer-grofvuil" ><option value="0" selected="selected">Selecteer eerst uw straat</option></select>
+</div>
+<div class="submit"><a href="javascript:limburg_grofvuil_change_gemeente('#edit-select-gemeente-grofvuil','#edit-select-straat-grofvuil','#edit-select-huisnummer-grofvuil')">Ga door naar aanvraag</a></div></fieldset>
+<fieldset class="footer"><div style="clear:both;">&nbsp;</div><div><a href="javascript:limburg_close_grofvuil_adres_selectie()">Terug naar startpagina</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/privacyverklaring">Privacyverklaring</a></div></fieldset>
+<input type="hidden" name="form_build_id" id="form-d4082ce206b13bb85ad007b2f50bc69a" value="form-d4082ce206b13bb85ad007b2f50bc69a"  />
+<input type="hidden" name="form_id" id="edit-limburg-select-gemeente-grofvuil-frm" value="limburg_select_gemeente_grofvuil_frm"  />
+
+</div></form>
+
+<a style="display:none;" id="grofvuil_selectie_overlay_popup" href="#TB_inline?height=400&amp;width=635&amp;inlineId=limburg-select-gemeente-grofvuil-frm" class="thickbox">(wijzig)</a>
+<br />
+<a href="/limburg/selecteergemeente" style="margin-left: 45px;">Toegankelijke versie</a>  </div>
+</div>
+<div id="block-views-applicatie_banners-block_1" class="block block-views">
+
+  <div class="content">
+    <div class="view view-applicatie-banners view-id-applicatie_banners view-display-id-block_1 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    
+<div id="node-1190" class="app-banner-mijnlimburgnet node header">
+	<a href="http://mijn.limburg.net" alt="mijn.limburg.net"><img src="http://www.limburg.net/sites/default/files/imagecache/width_472/generated/images/applicatie_banners/BANNER-MIJNLIMBURGPUNTNET.png" alt="" title=""  class="imagecache imagecache-width_472 imagecache-default imagecache-width_472_default" width="190" height="128" /></a>
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    
+<div id="node-5" class="app-banner-afvalkalender node header">
+	<a href="" alt="Afval kalender"><img src="http://www.limburg.net/sites/default/files/imagecache/width_472/generated/images/applicatie_banners/Unknown-3.jpeg" alt="" title=""  class="imagecache imagecache-width_472 imagecache-default imagecache-width_472_default" width="196" height="69" /></a>
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    
+<div id="node-6" class="app-banner-sorteergids node header">
+	<a href="http://www.limburg.net/sorteerregels" alt="Sorteer gids"><img src="http://www.limburg.net/sites/default/files/imagecache/width_472/generated/images/applicatie_banners/Button_sorteergids.jpg" alt="" title=""  class="imagecache imagecache-width_472 imagecache-default imagecache-width_472_default" width="190" height="65" /></a>
+</div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    
+<div id="node-903" class="app-banner-veelgesteldevragen node header">
+	<a href="http://www.limburg.net/veelgestelde-vragen" alt="Veel gestelde vragen"><img src="http://www.limburg.net/sites/default/files/imagecache/width_472/generated/images/applicatie_banners/diftar_0.jpg" alt="" title=""  class="imagecache imagecache-width_472 imagecache-default imagecache-width_472_default" width="190" height="65" /></a>
+</div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+    
+<div id="node-8" class="app-banner-grofvuil node header">
+	<a href="javascript:limburg_open_grofvuil_adres_selectie()" alt="Grofvuil"><img src="http://www.limburg.net/sites/default/files/imagecache/width_472/generated/images/applicatie_banners/grofvuil_aanvragen.jpg" alt="" title=""  class="imagecache imagecache-width_472 imagecache-default imagecache-width_472_default" width="190" height="65" /></a>
+</div>
+  </div>
+  <div class="views-row views-row-6 views-row-even views-row-last">
+    
+<div id="node-588" class="app-banner-helpdesk node header">
+	<a href="http://www.limburg.net/helpdesk" alt="Helpdesk"><img src="http://www.limburg.net/sites/default/files/imagecache/width_472/generated/images/applicatie_banners/vragen-klachten.jpg" alt="" title=""  class="imagecache imagecache-width_472 imagecache-default imagecache-width_472_default" width="190" height="65" /></a>
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+</div>
+<div id="block-views-Links-block_1" class="block block-views">
+
+  <div class="content">
+    <div class="view view-Links view-id-Links view-display-id-block_1 view-dom-id-3">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div id="node-1201" class="node tips tip_teaser">
+	<a href="/nette_tips" title="Kippen als afvalverwerkers"><img src="http://www.limburg.net/sites/default/files/imagecache/width_190/generated/images/tip/LIMNET_Kippenactie_2015_A3_v02_LR.jpg" alt="Kippenactie 2015" title="Kippenactie 2015"  class="imagecache imagecache-width_190 imagecache-default imagecache-width_190_default" width="190" height="269" /></a>
+<div class="clear-both"></div>
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+</div>
+<div id="block-tagadelic-2" class="block block-tagadelic">
+  <h2>Tags</h2>
+
+  <div class="content">
+    <a href="/category/tags/actie" class="tagadelic level2" rel="tag">actie</a> 
+<a href="/category/tags/afvalkalender" class="tagadelic level2" rel="tag">afvalkalender</a> 
+<a href="/category/tags/composteren" class="tagadelic level2" rel="tag">composteren</a> 
+<a href="/category/tags/gft" class="tagadelic level3" rel="tag">gft</a> 
+<a href="/category/tags/huis-aan-huis" class="tagadelic level4" rel="tag">huis-aan-huis</a> 
+<a href="/category/tags/huisvuil" class="tagadelic level4" rel="tag">huisvuil</a> 
+<a href="/category/tags/inzamelen" class="tagadelic level4" rel="tag">inzamelen</a> 
+<a href="/category/tags/kip" class="tagadelic level1" rel="tag">kip</a> 
+<a href="/category/tags/kringlooptuinieren" class="tagadelic level2" rel="tag">kringlooptuinieren</a> 
+<a href="/category/tags/organisch" class="tagadelic level2" rel="tag">organisch</a> 
+<a href="/category/tags/papier-en-karton" class="tagadelic level3" rel="tag">papier en karton</a> 
+<a href="/category/tags/pmd" class="tagadelic level3" rel="tag">pmd</a> 
+<a href="/category/tags/recyclagepark" class="tagadelic level4" rel="tag">recyclagepark</a> 
+<a href="/category/tags/taxus" class="tagadelic level1" rel="tag">taxus</a> 
+<a href="/category/tags/thuis" class="tagadelic level1" rel="tag">thuis</a> 
+<a href="/category/tags/thuisverwerking" class="tagadelic level2" rel="tag">thuisverwerking</a> 
+<a href="/category/tags/tuin" class="tagadelic level2" rel="tag">tuin</a> 
+<a href="/category/tags/tuin-en-snoeihout" class="tagadelic level2" rel="tag">tuin- en snoeihout</a> 
+<a href="/category/tags/voorkomen" class="tagadelic level3" rel="tag">voorkomen</a> 
+<a href="/category/tags/zwerfvuil" class="tagadelic level2" rel="tag">zwerfvuil</a> 
+<div class='more-link'><a href="/tagadelic/chunk/2">meer tags</a></div>  </div>
+</div>
+<div id="block-block-5" class="block block-block">
+  <h2>In de media</h2>
+
+  <div class="content">
+    <div class="view view-in-de-media view-id-in_de_media view-display-id-default view-dom-id-5">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div id="node-1215" class="node  nettekrant">
+    	<div class="title"><h2><a href="/nette_krant/zomer-2015">Zomer 2015</a></h2></div>
+    <div class="datum">(<span class="date-display-single">20/08/2015</span>)</div>
+  <div class="clear-block krant">
+		<div class="nette_top"></div>
+    	<div class="nette_repeat">
+			<div class="img"><a href="/sites/default/files/generated/pdf/nette_krant/DNK_17_zomer15.pdf" title="Zomer 2015"><img src="http://www.limburg.net/sites/default/files/imagecache/width_90/generated/images/nette_krant/DNK.JPG" alt="" title=""  class="imagecache imagecache-width_90 imagecache-default imagecache-width_90_default" width="90" height="122" /></a></div>		</div>
+		<div class="nette_bottom"></div>
+  </div>
+  <div class="pdf">
+	<a href="/sites/default/files/generated/pdf/nette_krant/DNK_17_zomer15.pdf" alt="DNK_17_zomer15.pdf"> (1.03 MB)</a>
+  </div>
+  <div class="clear-block">
+  </div>
+  	<div class="view_all">
+		<a href="/nette_krant" alt='Archief nette krant' title="Archief nette krant">Archief nette krant</a>
+	</div>
+
+  </div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> <div id="media_footer"><div class="view_all first"><a href="/video" alt="Alle filmpjes" title="Alle filmpjes">Alle filmpjes</a></div><div class="view_all"><a href="/advertenties" alt="Advertenties" title="Advertenties">Advertenties</a></div></div>  </div>
+</div>
+			</div>
+        </div>
+		    </div> <!-- /container -->
+
+  </div> <!-- wrapper -->
+
+	<div id="footer_container">
+		<div id="footer_image"><img src="/sites/all/themes/limburg/images/footer.png"/></div>
+		Limburg.net © Gouverneur Verwilghensingel 32 - 3500 Hasselt - T 011 28 89 89 - M <span class="spamspan"><span class="u">info</span> [at] <span class="d">limburg [dot] net</span></span>		<div id="block-menu-menu-footer" class="block block-menu">
+
+  <div class="content">
+    <div class="menu_container_top"></div><ul class="menu"><li class="leaf first"><a href="/privacyverklaring" title="Privacy Disclaimer">Privacy Disclaimer</a></li>
+<li class="leaf last"><a href="http://www.xio.be" title="Created by XIO" target="_blank">Created by XIO</a></li>
+</ul><div class="menu_container_bottom"></div>  </div>
+</div>
+	</div>
+
+	<div id="body_end"></div>
+
+  <script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js?5"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker = _gat._getTracker("UA-15330941-1");pageTracker._trackPageview();} catch(err) {}
+//--><!]]>
+</script>
+  </body>
+</html>

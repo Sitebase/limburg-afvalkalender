@@ -1,0 +1,19 @@
+{
+    "name": "sitebase/limburg-afvalkalender",
+    "description": "Library to scrape limburg.net afvalkalender",
+    "require": {
+        "zendframework/zend-dom": "^2.5",
+        "eluceo/ical": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Sitebase\\LimburgAfvalkalender": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wim",
+            "email": "wim@sitebase.be"
+        }
+    ]
+}
