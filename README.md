@@ -1,6 +1,6 @@
 # Limburg.net afvalkalender scraper
 
-Frustrated by the fact that Limburg doesn't seem to have a iCal format, or any other importable format of their afvalkalenders, I decided to create a simple scraper for [limburg.net](http://limburg.net). The initial goal is to create a custom iCal file from the scraped data that I then can use to import it into my Google calendar.
+Frustrated by the fact that Limburg doesn't seem to have an iCal format, or any other importable format, of their afvalkalenders, I decided to create a scraper for [limburg.net](http://limburg.net). The initial goal is to create a custom iCal file from the scraped data that I then can use to import into my Google calendar.
 
 The source that I use [for scraping is](http://www.limburg.net/afvalkalender).
 
